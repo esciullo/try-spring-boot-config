@@ -12,7 +12,7 @@ import java.util.List;
  * </pre>
  */
 @Data
-@Component
+@Component // necessary
 @ConfigurationProperties("myname") // locations = "mappingconfig.yaml")
 public class TheProperties {
   private String name;
