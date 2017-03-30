@@ -10,7 +10,7 @@ import java.util.Map;
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 
-@ConfigurationProperties(locations = "mappingconfig.yaml", prefix = "prefix")
+//@ConfigurationProperties(locations = "mappingconfig.yaml", prefix = "prefix")
 @Component
 @Data
 public class SampleProperty {
