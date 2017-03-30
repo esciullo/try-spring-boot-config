@@ -1,0 +1,8 @@
+myname: 
+  name: abc
+  servers: 
+    - dev.bar.com
+    - foo.bar.com
+  mappingMap: 
+    postalNo: PostalNo
+    postalCode: PostalCode11

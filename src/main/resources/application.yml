@@ -10,12 +10,5 @@ prefix:
         mappingMap: 
           postalNo: PostalNo
           postalCode: PostalCode
-           
-myname: 
-  name: abc
-  servers: 
-    - dev.bar.com
-    - foo.bar.com
-  mappingMap: 
-    postalNo: PostalNo
-    postalCode: PostalCode
+          
+spring.profiles.include: 'supplyment'
