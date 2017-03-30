@@ -17,7 +17,7 @@ import java.util.List;
 public class TheProperties {
   private String name;
 
-  private HashMap<String, String> mappingMap;
+  private HashMap<String, ConvertSetting> mappingMap;
 
   private List<String> servers;
 }

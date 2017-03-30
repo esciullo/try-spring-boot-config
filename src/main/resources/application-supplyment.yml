@@ -4,5 +4,13 @@ myname:
     - dev.bar.com
     - foo.bar.com
   mappingMap: 
-    postalNo: PostalNo
-    postalCode: PostalCode11
+    person1: 
+      name: aaa
+      addresses: 
+        na: jiang
+        sb: su
+    person2: 
+      name: bbb
+      addresses: 
+        to: jiang
+        bit: su
