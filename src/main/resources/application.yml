@@ -16,3 +16,6 @@ myname:
   servers: 
     - dev.bar.com
     - foo.bar.com
+  mappingMap: 
+    postalNo: PostalNo
+    postalCode: PostalCode
