@@ -1,5 +1,5 @@
 prefix:
-    stringProp1: propValue1
+    stringProp1: propValue1custom
     stringProp2: propValue2
     intProp1: 10
     listProp:
@@ -10,9 +10,16 @@ prefix:
         mappingMap: 
           postalNo: PostalNo
           postalCode: PostalCode
-           
-myname: 
-  name: abc
-  servers: 
-    - dev.bar.com
-    - foo.bar.com
+ex: 
+  person1: 
+    name: aaa
+    addresses: 
+      na: jiang
+      sb: su
+  person2: 
+    name: bbb
+    addresses: 
+      to: jiang
+      bit: su
+
+          
