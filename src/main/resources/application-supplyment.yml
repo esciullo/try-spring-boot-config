@@ -4,13 +4,13 @@ myname:
     - dev.bar.com
     - foo.bar.com
   mappingMap: 
-    person1: 
-      name: aaa
+    "[o.s.b.a.e.mvc.EndpointHandlerMapping]": 
+      name: o.s.b.a.e.mvc.End
       addresses: 
         na: jiang
         sb: su
-    person2: 
-      name: bbb
+    "[aaaaaaao.s.b.a.e.mvc.EndpointHandlerMapping]": 
+      name: aaaaaaao.s.b.a.e.mvc.End
       addresses: 
         to: jiang
         bit: su
