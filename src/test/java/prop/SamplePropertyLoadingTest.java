@@ -13,8 +13,13 @@ public class SamplePropertyLoadingTest {
   @Autowired
   private TheProperties theProperties;
   
+  @Autowired
+  private TheMapProperties theMapProperties;
+  
+  
   @Test
   public void testLoadingOfProperties() {
     System.out.println(theProperties);
+    System.out.println(theMapProperties);
   }
 }
