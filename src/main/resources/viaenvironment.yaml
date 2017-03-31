@@ -1,0 +1,12 @@
+map: 
+  mappingMap: 
+    "[o.s.b.a.e.mvc.EndpointHandlerMapping]": 
+      name: o.s.b.a.e.mvc.End
+      addresses: 
+        na: jiang
+        sb: su
+    "[aaaaaaao.s.b.a.e.mvc.EndpointHandlerMapping]": 
+      name: aaaaaaao.s.b.a.e.mvc.End
+      addresses: 
+        to: jiang
+        bit: viaenvironment.yaml
