@@ -1,5 +1,8 @@
 package prop;
 
+import static org.hamcrest.CoreMatchers.equalTo;
+import static org.junit.Assert.assertThat;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,6 +22,8 @@ public class EnvironmentVariableSystemPropertiesTest {
 
   @Test
   public void testLoadingOfProperties() {
+    
     System.out.println(environmentVariableSystemProperties);
+    assertThat("defaultSpringConfigName",equalTo(environmentVariableSystemProperties.getSpringConfigName()));
   }
 }
