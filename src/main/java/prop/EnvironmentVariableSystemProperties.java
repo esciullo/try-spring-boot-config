@@ -18,7 +18,7 @@ public class EnvironmentVariableSystemProperties {
   @Value("${DATASTORE.DATASET}")
   private String datastoreDataset;
   
-  @Value("${spring.config.name}")
+  @Value("${spring.config.name:defaultSpringConfigName}")
   private String springConfigName;
   
 }
