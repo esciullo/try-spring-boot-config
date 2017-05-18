@@ -1,5 +1,0 @@
-test: 
-  name: defaultname
-  
-elasticsearch: 
-  specifiedindex: common.dev
