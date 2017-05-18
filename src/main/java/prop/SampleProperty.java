@@ -13,4 +13,7 @@ public class SampleProperty {
     
     @Value("${test.name}")
     private String name;
+    
+    @Value("${address}")
+    private String address;
 }

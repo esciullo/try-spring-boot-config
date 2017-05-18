@@ -18,3 +18,5 @@ elasticsearch:
   
 spring.profiles.active: dev
 
+address: address.prod
+
