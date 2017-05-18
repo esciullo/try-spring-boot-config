@@ -1,0 +1,5 @@
+test: 
+  name: defaultname
+  
+elasticsearch: 
+  specifiedindex: common.prod
