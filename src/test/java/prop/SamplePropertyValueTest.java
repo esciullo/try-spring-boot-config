@@ -20,7 +20,7 @@ public class SamplePropertyValueTest {
   public void testLoadingOfProperties() {
     System.out.println(sampleProperty);
     
-    assertThat("common.default",equalTo(sampleProperty.getSpecifiedindex()));
+    assertThat("common.dev",equalTo(sampleProperty.getSpecifiedindex()));
     assertThat("defaultname",equalTo(sampleProperty.getName()));
   }
 }

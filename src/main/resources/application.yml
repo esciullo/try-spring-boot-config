@@ -15,4 +15,6 @@ spring.profiles.include: 'supplyment'
 
 elasticsearch: 
   specifiedindex: common.application
+  
+spring.profiles.active: dev
 
