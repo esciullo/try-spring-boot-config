@@ -10,4 +10,7 @@ import org.springframework.stereotype.Component;
 public class SampleProperty {
     @Value("${elasticsearch.specifiedindex}")
     private String specifiedindex;
+    
+    @Value("${test.name}")
+    private String name;
 }

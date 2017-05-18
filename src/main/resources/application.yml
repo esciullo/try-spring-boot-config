@@ -13,5 +13,6 @@ prefix:
           
 spring.profiles.include: 'supplyment'
 
-elasticsearch.specifiedindex: common
+elasticsearch: 
+  specifiedindex: common.application
 
