@@ -12,3 +12,6 @@ prefix:
           postalCode: PostalCode
           
 spring.profiles.include: 'supplyment'
+
+elasticsearch.specifiedindex: common
+
