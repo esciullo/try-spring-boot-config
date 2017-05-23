@@ -20,3 +20,9 @@ spring.profiles.active: dev
 
 address: address.prod
 
+#logging:
+#  file: my.log
+
+logging.file: my.log
+
+#logging.level.root: WARN
