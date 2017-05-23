@@ -23,6 +23,8 @@ address: address.prod
 #logging:
 #  file: my.log
 
-logging.file: my.log
+#logging.level.org.springframework.web: INFO
+#logging.level.prop.controller: DEBUG
+logging.file: logs/spring-boot-logging.log
 
 #logging.level.root: WARN
