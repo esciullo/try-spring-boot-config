@@ -8,3 +8,4 @@ bin/
 *.iml
 .gradle
 build/
+logs/spring-boot-logging.log
