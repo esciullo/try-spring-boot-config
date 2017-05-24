@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import prop.SampleProperty;
 import prop.TheMapProperties;
 import prop.helpers.SpringLoggingHelper;
+import prop.service.PropertyService;
 
 @RestController
 public class HelloController {
@@ -16,6 +17,9 @@ public class HelloController {
   
   @Autowired
   private TheMapProperties theMapProperties;
+  
+  @Autowired
+  private PropertyService propertyService;
   
   @Autowired
   private SampleProperty sampleProperty;
@@ -31,7 +35,7 @@ public class HelloController {
     logger.error("This is an error message");
     new SpringLoggingHelper().helpMethod();
     
-    return "Greetings from Spring Boot!";
+    return "Greetings from Spring Boot!" + propertyService.get();
   }
 
 }
